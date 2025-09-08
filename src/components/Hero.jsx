@@ -43,11 +43,9 @@ export const Hero = () => {
                         Frontend Developer | React & Next.js
                     </motion.h2>
                     <motion.p className="hero-description" variants={fadeInUp}>
-                        I'm a frontend developer specialized in building modern and responsive web applications using React and Next.js. I enjoy turning ideas into smooth and interactive user experiences.
-
-                        My toolkit includes Tailwind CSS and Bootstrap for fast and clean styling, and Framer Motion for creating beautiful animations and transitions. I focus on writing clean, maintainable code and building interfaces that are both functional and visually appealing.
-
-                        Currently, I'm exploring new technologies and improving my skills to deliver high-quality projects and innovative web experiences.
+                        I'm a frontend developer specialized in building modern and 
+                        responsive web applications using React and Next.js. 
+                        I enjoy turning ideas into smooth and interactive user experiences.
                     </motion.p>
                     <motion.div
                         className="cta-buttons"
@@ -59,7 +57,7 @@ export const Hero = () => {
                             whileTap={{ scale: 0.95 }}>
                             View My Work
                         </motion.a>
-                        <motion.a href="#contacts"
+                        <motion.a href="#contact"
                             className="cta-secondary"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}>
@@ -68,15 +66,16 @@ export const Hero = () => {
                     </motion.div>
                     <motion.div className="social-links"
                         variants={staggerContainer}>
-                        <motion.a href="https://github.com" target="_blank">
+                        <motion.a href="https://github.com/EhsanFathi25" target="_blank">
                             <i className="fab fa-github"></i>
                         </motion.a>
-                        <motion.a href="https://linkedin.com" target="_blank">
+                        <motion.a href="https://www.linkedin.com/in/ehsan-fathi-428a54331" target="_blank">
                             <i className="fab fa-linkedin"></i>
                         </motion.a>
-                        <motion.a href="https://twitter.com" target="_blank">
+                        <motion.a href="https://x.com/EhsanFathi2195" target="_blank">
                             <i className="fab fa-twitter"></i>
                         </motion.a>
+                        
                     </motion.div>
                 </motion.div>
                 <motion.div className="hero-image-container"

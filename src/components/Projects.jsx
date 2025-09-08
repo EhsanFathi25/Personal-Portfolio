@@ -61,7 +61,6 @@ export const Projects = () => {
 
 
 
-
                 <motion.div
                     className="project-card"
                     variants={fadeInUp}
