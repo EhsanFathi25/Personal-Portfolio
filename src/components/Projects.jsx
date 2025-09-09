@@ -68,9 +68,9 @@ export const Projects = () => {
                 >
                     <motion.div
                         className="project-image"
-                        style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
+                        style={{ backgroundImage: "url('/projects/social-media.png')" }}
                         whileHover={{ scale: 1.05, transition: { duration: 0.2 } }} />
-                    <h3>AI SaaS Platform</h3>
+                    <h3>Social Media</h3>
                     <p>a modern saas platform built with next.js and openAI
                         integration, featuring real-time AI-powerd content
                         generation and analytics.
@@ -93,9 +93,9 @@ export const Projects = () => {
                 >
                     <motion.div
                         className="project-image"
-                        style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
+                        style={{ backgroundImage: "url('/projects/stopwatch.png')" }}
                         whileHover={{ scale: 1.05, transition: { duration: 0.2 } }} />
-                    <h3>AI SaaS Platform</h3>
+                    <h3>Stop Watch</h3>
                     <p>a modern saas platform built with next.js and openAI
                         integration, featuring real-time AI-powerd content
                         generation and analytics.
