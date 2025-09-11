@@ -57,6 +57,14 @@ export const Hero = () => {
                             whileTap={{ scale: 0.95 }}>
                             View My Work
                         </motion.a>
+                        <motion.a
+                            className="cta-download"
+                            href="/Ehsan Fathi-CV.pdf"
+                            download="Ehsan-Fathi-CV.pdf"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}>
+                            Download CV
+                        </motion.a>
                         <motion.a href="#contact"
                             className="cta-secondary"
                             whileHover={{ scale: 1.05 }}
@@ -74,6 +82,9 @@ export const Hero = () => {
                         </motion.a>
                         <motion.a href="https://x.com/EhsanFathi2195" target="_blank">
                             <i className="fab fa-twitter"></i>
+                        </motion.a>
+                        <motion.a href="mailto:ehsan.fathi2195@gmail.com" target="_blank">
+                            <i class="fa-regular fa-envelope"></i>
                         </motion.a>
                         
                     </motion.div>

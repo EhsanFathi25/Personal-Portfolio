@@ -4,21 +4,24 @@
   box-sizing: border-box;
 }
 
+
 :root {
-  --primary-color: #7c3aed;
-  --primary-dark: #5b21b6;
-  --secondary-color: #db2777;
-  --accent-color: #f472b6;
-  --text-color: #e2e8f0;
+  --primary-color: #94a3b8;     /* خاکستری سرد */
+  --primary-dark: #475569;      /* خاکستری تیره */
+  --secondary-color: #cbd5e1;   /* خاکستری روشن */
+  --accent-color: #38bdf8;      /* آبی ملایم برای تاکید */
+  --text-color: #f1f5f9;
   --light-text: #94a3b8;
   --background: #0f172a;
   --section-bg: #1e293b;
   --card-bg: #1e293b;
-  --gradient-start: #7c3aed;
-  --gradient-end: #db2777;
+  --gradient-start: #475569;
+  --gradient-end: #38bdf8;
   --nav-bg: rgba(15, 23, 42, 0.8);
   --card-border: rgba(148, 163, 184, 0.1);
 }
+
+
 
 body {
   line-height: 1.6;
@@ -170,6 +173,7 @@ body {
 }
 
 .cta-primary,
+.cta-download,
 .cta-secondary {
   padding: 0.8rem 2rem;
   border-radius: 50px;
@@ -190,6 +194,13 @@ body {
   color: var(--primary-color);
   box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
   border: 2px solid white;
+}
+.cta-download{
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 .cta-secondary {
